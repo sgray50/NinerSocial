@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "640205714867",
+    "firebase_url": "https://niner-social.firebaseio.com",
+    "project_id": "niner-social",
+    "storage_bucket": "niner-social.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640205714867:android:3349da7f4d673e609207c6",
+        "android_client_info": {
+          "package_name": "com.example.ninersocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640205714867-rj69ro3nbunbmsl4qc25rnnghk3lofjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ninersocial",
+            "certificate_hash": "eb5eacf6eab2e3948e30bbba797a3dde3c328ead"
+          }
+        },
+        {
+          "client_id": "640205714867-8l6n5knik66abalm1ankhjrnp1mccr7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd4HBoZjujKGcE4tS7wwNf77aIxhG6YQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640205714867-8l6n5knik66abalm1ankhjrnp1mccr7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

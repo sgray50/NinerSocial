@@ -25,7 +25,7 @@ import java.util.Calendar;
 public class Register<FireBaseAuth> extends AppCompatActivity {
     EditText nFullName, nEmail, nPassword;
     Button nRegisterBtn;
-    Button nAlreadyRegisteredBtn;
+    TextView nLoginBtn;
     FirebaseAuth fAuth;
     ProgressBar progressBar;
 
@@ -39,7 +39,7 @@ public class Register<FireBaseAuth> extends AppCompatActivity {
         nEmail = findViewById(R.id.Email);
         nPassword = findViewById(R.id.password);
         nRegisterBtn = findViewById(R.id.registerBtn);
-        nAlreadyRegisteredBtn = findViewById(R.id.alreadyRegisteredBtn);
+        nLoginBtn = findViewById(R.id.loginBtn);
 
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressBar);
@@ -74,22 +74,14 @@ public class Register<FireBaseAuth> extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(Register.this, "You Are Now Registered", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Register.this, "User Created", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         } else {
                             Toast.makeText(Register.this, "Error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            progressBar.setVisibility(View.GONE);
                         }
                     }
 
                 });
-            }
-        });
-
-        nAlreadyRegisteredBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Login.class));
             }
         });
     }

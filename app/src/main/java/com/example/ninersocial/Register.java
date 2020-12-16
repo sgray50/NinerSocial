@@ -39,7 +39,6 @@ public class Register<FireBaseAuth> extends AppCompatActivity {
         nEmail = findViewById(R.id.Email);
         nPassword = findViewById(R.id.password);
         nRegisterBtn = findViewById(R.id.registerBtn);
-        nLoginBtn = findViewById(R.id.loginBtn);
 
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressBar);
@@ -82,13 +81,6 @@ public class Register<FireBaseAuth> extends AppCompatActivity {
                         }
                     }
 
-                });
-
-                nLoginBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        startActivity(new Intent(getApplicationContext(), Login.class));
-                    }
                 });
             }
         });

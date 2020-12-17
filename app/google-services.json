@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379881381501",
+    "project_id": "fir-storage-51724",
+    "storage_bucket": "fir-storage-51724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379881381501:android:89f15091a33e2c69f55b14",
+        "android_client_info": {
+          "package_name": "com.example.firebasemessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379881381501-dn22mcbcqvpvnku36a093773kee5stnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU4RLsU9R9rr8s-0wcao5zXoGlkUeip6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379881381501-dn22mcbcqvpvnku36a093773kee5stnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
